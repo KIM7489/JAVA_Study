@@ -23,6 +23,9 @@ public class BoderLayout_Ex extends JFrame {
 		   setSize(300,200);
 		   setVisible(true);
 		   
+		   
+		   
+		   
 	}
 
 	public static void main(String[] args) {

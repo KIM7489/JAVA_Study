@@ -1,0 +1,22 @@
+package java09_swing;
+import java.awt.Container;
+
+import javax.swing.JFrame;
+public class BorderLayout extends JFrame {
+
+	public BorderLayout() {
+			
+		   setTitle("BorderLayout예제");
+		   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 시스템 종료 메소드 
+		   Container contentPane = getContentPane(); // 컨텐트팬 알아내기
+		   contentPane.setLayout(new BorderLayout(30,20));
+		   
+		
+	}
+
+	public static void main(String[] args) {
+		new BorderLayout();
+
+	}
+
+}

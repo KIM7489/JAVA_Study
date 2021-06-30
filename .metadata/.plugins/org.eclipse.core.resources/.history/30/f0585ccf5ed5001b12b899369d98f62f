@@ -1,0 +1,24 @@
+import java.util.Collection;
+import java.util.List;
+
+import LasInfor.LasDataSet;
+import LasInfor.LasVO;
+
+public class Test {
+
+	public Test() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		LasDataSet.basicLasSet();
+
+		LasVO va = (LasVO) LasDataSet.hs.values();
+		
+		System.out.println(va.getBookNumber());
+
+		
+		// Hash -> collection list -> 내부클래스 상속<memverVO> ->   
+	}
+
+}

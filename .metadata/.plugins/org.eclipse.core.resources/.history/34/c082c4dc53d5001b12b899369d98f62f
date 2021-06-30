@@ -1,0 +1,15 @@
+import LasInfor.LasDataSet;
+
+public class Test {
+
+	public Test() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		LasDataSet.basicLasSet();
+		System.out.print(LasDataSet.hs.values());
+
+	}
+
+}

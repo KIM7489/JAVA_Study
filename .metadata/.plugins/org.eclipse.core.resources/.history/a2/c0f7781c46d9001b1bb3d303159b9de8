@@ -1,0 +1,14 @@
+package java09_swing;
+
+public class JFrame01 {
+
+	public JFrame01() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

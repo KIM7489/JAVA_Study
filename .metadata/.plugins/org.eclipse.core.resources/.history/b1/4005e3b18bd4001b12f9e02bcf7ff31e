@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Set;
+
+import LasInfor.LasLoginData;
+
+public class Login {
+	public static HashMap<String , String> map = new HashMap<String , String>();
+	private final String USERID =  "admin";
+	private final String USERPWD = "1234";
+
+	public Login() {
+	}
+	
+	public static void userIdlist() {
+		map.put("kimcha","1234" );
+		
+	}
+	
+	public boolean loginCheck(String userid, String userpwd) {
+		
+		if(userpwd.equals(map.get(userid))){		
+			return true;	
+		} else {
+			return false;
+		}
+			
+		} 
+
+}
+

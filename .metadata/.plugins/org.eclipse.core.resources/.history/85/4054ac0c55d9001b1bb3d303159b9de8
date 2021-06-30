@@ -1,0 +1,47 @@
+package java09_swing;
+import java.util.Calendar;
+
+import javax.swing.JFrame;
+
+public class DigitalColock extends JFrame {
+
+	public DigitalColock() {
+		set();
+		timeget();
+	}
+	public void set() {
+		
+		setTitle("Y_Clock Test");
+		setSize(500, 500);
+		setLocationRelativeTo(null);
+		setResizable(false);
+		setLayout(null);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+	public void timeget() {
+		
+		       while(true) {
+							Calendar c = Calendar.getInstance();
+							int year = c.get(Calendar.YEAR);
+							int month = c.get(Calendar.MONTH);
+							int date = c.get(Calendar.DATE);
+							int amPm = c.get(Calendar.AM_PM);
+							int hour = c.get(Calendar.HOUR);
+							int min = c.get(Calendar.MINUTE);
+							int sec = c.get(Calendar.SECOND);
+							int msec = c.get(Calendar.MILLISECOND);
+							String ampm=amPm==Calendar.AM? "PM":"AM";
+							int day = c.get(Calendar.DAY_OF_WEEK);
+							System.out.println(year+"년"+month+"월"+date+"일"+ampm+hour+"시"+min+"분"+sec+"초"+msec+"요일");
+						try{
+							Thread.sleep(1000);
+						} catch (Exception e){}
+		       }
+	}
+	public static void main(String[] args) {
+		new DigitalColock();
+	}
+
+}

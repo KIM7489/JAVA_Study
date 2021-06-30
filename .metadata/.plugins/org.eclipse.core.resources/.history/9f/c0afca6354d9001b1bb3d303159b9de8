@@ -1,0 +1,25 @@
+package java09_swing;
+import javax.swing.JFrame;
+
+public class DigitalColock extends JFrame {
+
+	public DigitalColock() {
+		set();
+	}
+	public void set() {
+		
+		setTitle("Y_Clock Test");
+		setSize(500, 500);
+		setLocationRelativeTo(null);
+		setResizable(false);
+		setLayout(null);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+
+	public static void main(String[] args) {
+		new DigitalColock();
+	}
+
+}

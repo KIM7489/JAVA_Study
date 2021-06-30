@@ -1,0 +1,9 @@
+package java09_swing;
+
+public class JFrame001 {
+
+	public JFrame001() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

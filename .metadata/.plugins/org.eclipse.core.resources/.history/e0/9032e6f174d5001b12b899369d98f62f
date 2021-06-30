@@ -1,0 +1,32 @@
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+
+import LasInfor.LasDataSet;
+import LasInfor.LasVO;
+
+public class Test {
+
+	public Test() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		LasDataSet.basicLasSet();
+
+		Collection<LasVO> va = LasDataSet.hs.values();
+		Iterator<LasVO> ii = va.iterator();
+		
+		while(ii.hasNext()) {
+			LasVO vo = ii.next();
+			vo.getBookSal();
+			va.
+			for(int i = 1 i < )
+		}
+		
+
+		
+		// Hash -> collection list -> 내부클래스 상속<memverVO> ->   
+	}
+
+}

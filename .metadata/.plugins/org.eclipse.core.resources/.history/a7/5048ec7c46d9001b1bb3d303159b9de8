@@ -1,0 +1,25 @@
+package java09_swing;
+
+import javax.swing.JFrame;
+
+public class JFrame01 extends JFrame {
+
+	public void  MyFrame() {
+		setTitle("첫번쨰 프레임");
+		setSize(300,300);
+		setVisible(true);
+		
+	}
+	
+	public JFrame01() {
+		
+	}
+
+	public static void main(String[] args) {
+	JFrame01 mf = new JFrame01();
+	mf.MyFrame();
+	new JFrame01();
+		
+	}
+
+}

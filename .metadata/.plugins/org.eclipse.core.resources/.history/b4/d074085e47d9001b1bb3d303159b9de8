@@ -1,0 +1,23 @@
+package java09_swing;
+
+import javax.swing.JFrame;
+
+public class JFrame001 extends JFrame {
+
+	public JFrame001() {
+		//프레임 타이틀
+		//프레임 사이즈
+		//화면 출력하는 코드 
+		
+		setTitle("두번쨰 프레임");
+		setSize(300, 300);
+		setVisible(true);
+	   
+	}
+
+	
+public static void main(String[] a) {
+	JFrame001 jf = new JFrame001();
+	new JFrame001();
+}
+}

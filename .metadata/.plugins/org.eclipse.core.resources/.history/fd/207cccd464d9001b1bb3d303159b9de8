@@ -1,0 +1,14 @@
+package java09_swing;
+
+public class BoderLayout_Ex {
+
+	public BoderLayout_Ex() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

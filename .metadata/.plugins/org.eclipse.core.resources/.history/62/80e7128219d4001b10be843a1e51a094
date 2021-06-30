@@ -1,0 +1,26 @@
+
+public class Login {
+	private final String USERID;
+	private final String USERPWD;
+	
+	
+	public Login(String userid, String userpwd) {
+		this.USERID = userid;
+		this.USERPWD = userpwd;
+		
+	}
+	
+	public Login() {
+		this.USERID = null;
+		this.USERPWD = null;
+	}
+	
+	public boolean loginCheck(String userid, String userpwd) {
+		
+		if(userid.equals(USERID) && userpwd.equals(USERPWD)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}
