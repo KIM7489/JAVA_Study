@@ -1,9 +1,0 @@
-package LasInfor;
-
-public class LasloginDataSet {
-
-	public LasloginDataSet() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

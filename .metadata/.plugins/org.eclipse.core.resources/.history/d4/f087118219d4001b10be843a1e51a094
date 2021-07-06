@@ -1,9 +1,0 @@
-package LasInfor;
-
-public class LoginVO {
-
-	public LoginVO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
