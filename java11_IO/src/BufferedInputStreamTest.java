@@ -11,7 +11,7 @@ public class BufferedInputStreamTest {
 			System.out.print("ют╥б=");
 			int cnt = bis.read(data);
 			System.out.println(new String(data));
-			 
+			
 			
 		}catch(Exception e) {
 			
