@@ -4,7 +4,7 @@ public class RunnableTest implements Runnable{
 	public RunnableTest() {}
 	public RunnableTest(String msg) {
 		this.msg = msg;
-	}
+	
 	public void run()
 	{
 		int i=1;
